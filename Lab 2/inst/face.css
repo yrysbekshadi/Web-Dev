@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+/* Логотип и текст */
+.logo {
+    width: 500px;
+    margin-right: 60px;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+.logo p {
+    font-size: 24px;
+}
+
+/* Блок входа */
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 360px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #1877f2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #166fe5;
+}
+
+/* ссылка */
+.box a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+/* кнопка регистрации */
+.box button:last-of-type {
+    background: rgb(blue);
+}
+
+.box button:last-of-type:hover {
+    background: rgb(green);
+}
+
+/* футер */
+#pageFooterChildren {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+#pageFooterChildren ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pageFooterChildren li {
+    display: inline-block;
+    margin: 4px 8px;
+}
+
+#pageFooterChildren a {
+    text-decoration: none;
+    color: #737373;
+}
+
+#pageFooterChildren a:hover {
+    text-decoration: underline;
+}
